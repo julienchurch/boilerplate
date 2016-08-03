@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-html=$(cat "$HOME/lib/boilerplate/lib/boilerplate.html")
+html=$(cat "./lib/boilerplate.html")
 
 if [ $1 ]
 then
