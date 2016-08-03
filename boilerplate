@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+html=$(cat "$HOME/lib/boilerplate/lib/boilerplate.html")
+
+if [ $1 ]
+then
+  echo "$html" >> $1
+else
+  echo "Please provide the name of the file you would like to turn into HTML5 boilerplate."
+fi
